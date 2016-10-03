@@ -1,0 +1,43 @@
+body{
+	background-color: yellow;
+
+}
+div{
+	color: black;
+	font-size: 190px;
+	float: left;
+	background-color: blue;
+	border: 10px solid yellow;
+	padding: 20px;
+	height: 330px;
+	width: 270px;
+	text-align: center;
+}
+.wrapper{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	float: none;
+}
+.clock{
+	height: 100%;
+	width: auto;
+}
+.buttons{
+	height: 100%;
+	/*float: none;*/
+	font-size: 50px;
+}
+.buttons button{
+	width: 50%;
+	float: left;
+}
+.miliseconds{
+	/*float: none;*/
+	font-size: 100px;
+	display: table-cell;
+	vertical-align: bottom;
+	height: 330px;
+	width: 170px;
+	padding-top: 110px;
+}
